@@ -10,7 +10,8 @@
         const app = await NestFactory.create(AppModule)
         app.enableCors({
             origin: [
-              'https://frontend-qafbxrhgd-aleksandrs-projects-9f773b96.vercel.app',
+              'https://frontend-auhhzu3us-aleksandrs-projects-9f773b96.vercel.app/',
+              'https://zct-web-app.azurewebsites.net/',
               'http://localhost:3000'
             ],
             credentials: true
