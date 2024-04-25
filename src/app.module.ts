@@ -14,6 +14,7 @@ import { Post } from "./posts/posts.model";
     controllers: [],
     providers: [],
     imports: [
+      ConfigModule.forRoot(),
       SequelizeModule.forRoot({
         dialect: 'postgres',
         host: 'zct.postgres.database.azure.com',
